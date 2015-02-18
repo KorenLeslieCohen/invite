@@ -1,8 +1,18 @@
-/* line 9, ../sass/style.scss */
+/* line 5, ../sass/style.scss */
+body {
+  margin: 0;
+  padding: 10px;
+  background: #000;
+}
+
+/* line 11, ../sass/style.scss */
 #container {
   max-width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 12, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 #container .preloader {
   position: fixed;
   top: 0;
@@ -12,7 +22,7 @@
   background: #000;
   z-index: 99999;
 }
-/* line 21, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 #container .preloader .preloader-gif {
   position: absolute;
   display: block;
@@ -23,7 +33,7 @@
   margin: -25px 0 0 -75px;
   background: url("/images/preloader.gif") no-repeat;
 }
-/* line 32, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 #container .preloader .preloader-header {
   position: absolute;
   display: block;
@@ -32,10 +42,49 @@
   width: 300px;
   margin-left: -150px;
 }
-/* line 40, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 #container .preloader .preloader-header h1 {
   font-family: "Codystar";
   font-size: 25px;
   color: #F5007A;
   text-align: center;
+}
+/* line 53, ../sass/style.scss */
+#container .one,
+#container .two,
+#container .three,
+#container .four,
+#container .five {
+  height: 200px;
+  float: left;
+  background: #000;
+  width: 320px;
+}
+/* line 63, ../sass/style.scss */
+#container .a {
+  background: url(http://i293.photobucket.com/albums/mm76/Wifeyevo/rave-dance-lights.gif);
+}
+/* line 66, ../sass/style.scss */
+#container .b {
+  background: url(http://38.media.tumblr.com/tumblr_m3fg6ozSpU1r6b9rbo1_500.gif);
+  background-size: cover;
+}
+/* line 70, ../sass/style.scss */
+#container .c {
+  background: url(http://25.media.tumblr.com/54bd1e8a17badd9ba757418a4fc7aa70/tumblr_mgibwgCMR51qica35o1_500.gif);
+}
+
+/* Smaller Screens - 1000 Breakpoint -------> */
+@media screen and (max-width: 1000px) {
+  /* line 78, ../sass/style.scss */
+  #container {
+    width: 640px;
+  }
+}
+/* Smaller Screens - 670 Breakpoint -------> */
+@media screen and (max-width: 670px) {
+  /* line 86, ../sass/style.scss */
+  #container {
+    width: 320px;
+  }
 }

@@ -3,11 +3,16 @@ $pink: #F5007A;
 $primary-font: 'Codystar';
 
 body {
-  
+  margin: 0;
+  padding: 10px;
+  background: #000;
 }
 
 #container {
   max-width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
   .preloader {
     position: fixed;
@@ -45,6 +50,43 @@ body {
       }
     }
   }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    height: 200px;
+    float: left;
+    background: #000;
+    width: 320px;
+  }
+  .a {
+    background: url(http://i293.photobucket.com/albums/mm76/Wifeyevo/rave-dance-lights.gif);
+  }
+  .b {
+    background: url(http://38.media.tumblr.com/tumblr_m3fg6ozSpU1r6b9rbo1_500.gif);
+    background-size: cover;
+  }
+  .c {
+    background: url(http://25.media.tumblr.com/54bd1e8a17badd9ba757418a4fc7aa70/tumblr_mgibwgCMR51qica35o1_500.gif);
+  }
+}
+
+/* Smaller Screens - 1000 Breakpoint -------> */
+@media screen and (max-width : 1000px) {
+
+  #container {
+    width: 640px;
+  }
+}
+
+/* Smaller Screens - 670 Breakpoint -------> */
+@media screen and (max-width : 670px) {
+
+  #container {
+    width: 320px;
+  }
+
 }
 
 
