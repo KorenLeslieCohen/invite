@@ -1,11 +1,14 @@
-$green: #59D600;
 $pink: #F5007A;
-$primary-font: 'Codystar';
+$blue: #4A7FE8;
+$grey: #EEECED;
+$primary-font: 'Oswald';
+$secondary-font: 'BenchNine';
 
 body {
   margin: 0;
   padding: 10px;
-  background: #000;
+  background: url(http://www.rabne.tk/wp-content/uploads/2015/01/Grey-background-for-site11.jpg);
+  background-size: cover;
 }
 
 #container {
@@ -28,47 +31,141 @@ body {
       display: block;
       top: 50%;
       left: 50%;
-      width: 150px;
-      height: 50px;
-      margin: -25px 0 0 -75px;
-      background: url('/images/preloader.gif') no-repeat;
-    } 
-
-    .preloader-header {
-      position: absolute;
-      display: block;
-      top: 55%; 
-      left: 50%;
       width: 300px;
-      margin-left: -150px;
+      height: 200px;
+      margin: -100px 0 0 -150px;
+      background: url('/images/preloader-fashion.gif') no-repeat;
+    } 
+  }
+  #header {
+    background: url(http://i306.photobucket.com/albums/nn270/crystalarlene/chanel.png) no-repeat;
+    width: 250px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+  }
+  #header-photo {
+    max-width: 960px;
+    height: 400px;
+    background: url(http://chanel-news.chanel.com/dam/chanelnews/en/2014/07/coco-coach-logo/chanel-fall-winter-campaign-2014-15-04.jpg/_jcr_content/renditions/cq5dam.gallery-full.jpg.Rendition/chanel-fall-winter-campaign-2014-15-04.jpg);
+    background-size: cover;
+    border: 5px solid $pink;
+    margin-top: 15px;
+  }
+  #main {
+    float: left;
+    width: 580px;
+    height: 300px;
 
-      h1 {
+    h1 {
+      font-family: $primary-font;
+      font-size: 30px;
+      padding: 10px;
+    }
+    p {
+      font-size: 20px;
+      font-family: $primary-font;
+      padding: 10px;
+    }
+  }
+  #items {
+    float: left;
+    width: 380px;
+
+    .one,
+    .three {
+      background: $blue;
+
+      h3 {
+        color: #fff;
+      }
+    }
+    .two,
+    .four {
+      background: $grey;
+    }
+
+    .item {
+      float: left;
+      width: 380px;
+      height: 75px;
+
+      h3 {
+        font-size: 20px;
         font-family: $primary-font;
-        font-size: 25px;
-        color: $pink;
         text-align: center;
       }
     }
   }
-  .one,
-  .two,
-  .three,
-  .four,
-  .five {
-    height: 200px;
-    float: left;
-    background: #000;
-    width: 320px;
-  }
-  .a {
-    background: url(http://i293.photobucket.com/albums/mm76/Wifeyevo/rave-dance-lights.gif);
-  }
-  .b {
-    background: url(http://38.media.tumblr.com/tumblr_m3fg6ozSpU1r6b9rbo1_500.gif);
-    background-size: cover;
-  }
-  .c {
-    background: url(http://25.media.tumblr.com/54bd1e8a17badd9ba757418a4fc7aa70/tumblr_mgibwgCMR51qica35o1_500.gif);
+  #fashion {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+
+    .fashion-item {
+      float: left;
+      width: 25%;
+      height: 275px;
+      position: relative;
+      display: block;
+
+      .fashion-inner {
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 0;
+        transition: opacity .3s;
+      }
+
+      .inner-one,
+      .inner-three {
+        background: $blue;
+
+        p {
+          color: #fff;
+          text-align: center;
+          font-size: 40px;
+          line-height: 200px;
+          font-family: $secondary-font;
+        }
+      }
+      .inner-two {
+        background: url(http://img0.etsystatic.com/002/0/5898062/il_570xN.356502012_9hg7.jpg);
+        background-size: cover;
+      }
+      .inner-four {
+        background: url(http://ua-cdn.stylecaster.com/post/2012/07/10/21273-mcqueen-clutch-and-chanel-pearls.jpg);
+        background-size: cover;
+      }
+
+      &:hover {
+        .fashion-inner {
+          opacity: 1;
+          transition: opacity .3s;
+        }
+      }
+    }
+
+    .fashion-one {
+      background: url(http://swaggmags.com/wp-content/uploads/2013/05/0x600.jpg);
+      background-size: cover;
+    }
+    .fashion-two {
+      background: url(http://www4.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Haute+Couture+h4td6lvcfVel.jpg);
+      background-size: cover;
+    }
+    .fashion-three {
+      background: url(http://lamodellamafia.com/wp-content/uploads/2013/04/la-modella-mafia-Chanel-Fall-2013-runway-7.jpg);
+      background-size: cover;
+    }
+    .fashion-four {
+      background: url(http://www3.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Spring+Summer+j2FbQU4J3Tvl.jpg);
+      background-size: cover;
+    }
   }
 }
 
@@ -76,17 +173,50 @@ body {
 @media screen and (max-width : 1000px) {
 
   #container {
-    width: 640px;
+    width: 100%;
   }
 }
 
-/* Smaller Screens - 670 Breakpoint -------> */
-@media screen and (max-width : 670px) {
+/* Smaller Screens - 980 Breakpoint -------> */
+@media screen and (max-width : 980px) {
 
   #container {
-    width: 320px;
+    #main {
+      width: 60%;
+    }
+    #items {
+      width: 40%;
+      .item {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Smaller Screens - 800 Breakpoint -------> */
+@media screen and (max-width : 800px) {
+
+  #container {
+    #fashion {
+      .fashion-item {
+        width: 50%;
+      }
+    }
   }
 
+}
+
+/* Smaller Screens - 650 Breakpoint -------> */
+@media screen and (max-width : 650px) {
+
+  #container {
+    #main {
+      width: 100%;
+    }
+    #items {
+      width: 100%;
+    }
+  }
 }
 
 
