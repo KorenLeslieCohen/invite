@@ -108,13 +108,65 @@ body {
   font-family: "Oswald";
   text-align: center;
 }
-/* line 106, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
+#container #items .item h3 a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 111, ../sass/style.scss */
+#container #items .four .modalDialog {
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  opacity: 0;
+  transition-duration: .5s;
+  transition-property: opacity;
+  pointer-events: none;
+}
+/* line 124, ../sass/style.scss */
+#container #items .four .modalDialog .modal-box {
+  color: #000;
+  width: 300px;
+  top: 125px;
+  padding-bottom: 17px;
+}
+/* line 131, ../sass/style.scss */
+#container #items .four .modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+  transition-duration: .5s;
+}
+/* line 136, ../sass/style.scss */
+#container #items .four .modalDialog > .modal-box {
+  position: relative;
+  color: #000;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #000;
+  background: #FFF;
+}
+/* line 145, ../sass/style.scss */
+#container #items .four .close {
+  color: #000;
+  float: none;
+  font-family: 'Playfair Display';
+  font-size: 15px;
+  opacity: 1;
+  margin-left: 120px;
+  font-weight: normal;
+}
+/* line 156, ../sass/style.scss */
 #container #fashion {
   display: block;
   width: 100%;
   height: 300px;
 }
-/* line 111, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 #container #fashion .fashion-item {
   float: left;
   width: 25%;
@@ -122,7 +174,7 @@ body {
   position: relative;
   display: block;
 }
-/* line 118, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 #container #fashion .fashion-item .fashion-inner {
   height: 100%;
   width: 100%;
@@ -133,12 +185,12 @@ body {
   padding: 0;
   transition: opacity .3s;
 }
-/* line 129, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one,
 #container #fashion .fashion-item .inner-three {
   background: #4A7FE8;
 }
-/* line 133, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one p,
 #container #fashion .fashion-item .inner-three p {
   color: #fff;
@@ -147,74 +199,74 @@ body {
   line-height: 200px;
   font-family: "BenchNine";
 }
-/* line 141, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 #container #fashion .fashion-item .inner-two {
   background: url(http://img0.etsystatic.com/002/0/5898062/il_570xN.356502012_9hg7.jpg);
   background-size: cover;
 }
-/* line 145, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 #container #fashion .fashion-item .inner-four {
   background: url(http://ua-cdn.stylecaster.com/post/2012/07/10/21273-mcqueen-clutch-and-chanel-pearls.jpg);
   background-size: cover;
 }
-/* line 151, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 #container #fashion .fashion-item:hover .fashion-inner {
   opacity: 1;
   transition: opacity .3s;
 }
-/* line 158, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 #container #fashion .fashion-one {
   background: url(http://swaggmags.com/wp-content/uploads/2013/05/0x600.jpg);
   background-size: cover;
 }
-/* line 162, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 #container #fashion .fashion-two {
   background: url(http://www4.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Haute+Couture+h4td6lvcfVel.jpg);
   background-size: cover;
 }
-/* line 166, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 #container #fashion .fashion-three {
   background: url(http://lamodellamafia.com/wp-content/uploads/2013/04/la-modella-mafia-Chanel-Fall-2013-runway-7.jpg);
   background-size: cover;
 }
-/* line 170, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 #container #fashion .fashion-four {
   background: url(http://www3.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Spring+Summer+j2FbQU4J3Tvl.jpg);
   background-size: cover;
 }
-/* line 175, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 #container #map {
   max-width: 960px;
   width: 100%;
   display: inline-block;
 }
-/* line 180, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 #container #map #lincolncenter {
   height: 300px;
   display: block;
   border: 5px solid #F5007A;
 }
-/* line 185, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 #container #map .gm-style-iw * {
   display: block;
   width: 100%;
 }
-/* line 189, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 #container #map .gm-style-iw h4, #container #map .gm-style-iw p {
   margin: 0;
   padding: 0;
 }
-/* line 193, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #container #map .gm-style-iw a {
   color: #4272db;
 }
 
-/* line 199, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 footer {
   height: 50px;
   width: 100%;
 }
-/* line 203, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 footer p {
   font-family: "Oswald";
   font-size: 20px;
@@ -223,40 +275,40 @@ footer p {
 
 /* Smaller Screens - 1000 Breakpoint -------> */
 @media screen and (max-width: 1000px) {
-  /* line 213, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   #container {
     width: 100%;
   }
 }
 /* Smaller Screens - 980 Breakpoint -------> */
 @media screen and (max-width: 980px) {
-  /* line 222, ../sass/style.scss */
+  /* line 272, ../sass/style.scss */
   #container #main {
     width: 60%;
   }
-  /* line 225, ../sass/style.scss */
+  /* line 275, ../sass/style.scss */
   #container #items {
     width: 40%;
   }
-  /* line 227, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   #container #items .item {
     width: 100%;
   }
 }
 /* Smaller Screens - 800 Breakpoint -------> */
 @media screen and (max-width: 800px) {
-  /* line 239, ../sass/style.scss */
+  /* line 289, ../sass/style.scss */
   #container #fashion .fashion-item {
     width: 50%;
   }
 }
 /* Smaller Screens - 650 Breakpoint -------> */
 @media screen and (max-width: 650px) {
-  /* line 251, ../sass/style.scss */
+  /* line 301, ../sass/style.scss */
   #container #main {
     width: 100%;
   }
-  /* line 254, ../sass/style.scss */
+  /* line 304, ../sass/style.scss */
   #container #items {
     width: 100%;
   }
