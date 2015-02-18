@@ -1,7 +1,7 @@
 /* line 7, ../sass/style.scss */
 body {
   margin: 0;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   background: url(http://www.rabne.tk/wp-content/uploads/2015/01/Grey-background-for-site11.jpg);
   background-size: cover;
 }
@@ -35,7 +35,7 @@ body {
   background: url("/images/preloader-fashion.gif") no-repeat;
 }
 /* line 40, ../sass/style.scss */
-#container #header {
+#container header {
   background: url(http://i306.photobucket.com/albums/nn270/crystalarlene/chanel.png) no-repeat;
   width: 250px;
   height: 170px;
@@ -62,53 +62,59 @@ body {
 #container #main h1 {
   font-family: "Oswald";
   font-size: 30px;
-  padding: 10px;
+  padding: 0px;
 }
 /* line 66, ../sass/style.scss */
-#container #main p {
-  font-size: 20px;
+#container #main h3 {
   font-family: "Oswald";
-  padding: 10px;
+  font-size: 25px;
+  padding: 0px;
 }
-/* line 72, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
+#container #main p {
+  font-family: "Oswald";
+  font-size: 20px;
+  padding: 0px;
+}
+/* line 77, ../sass/style.scss */
 #container #items {
   float: left;
   width: 380px;
 }
-/* line 76, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 #container #items .one,
 #container #items .three {
   background: #4A7FE8;
 }
-/* line 80, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 #container #items .one h3,
 #container #items .three h3 {
   color: #fff;
 }
-/* line 84, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 #container #items .two,
 #container #items .four {
   background: #EEECED;
 }
-/* line 89, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 #container #items .item {
   float: left;
   width: 380px;
   height: 75px;
 }
-/* line 94, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 #container #items .item h3 {
   font-size: 20px;
   font-family: "Oswald";
   text-align: center;
 }
-/* line 101, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 #container #fashion {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 300px;
 }
-/* line 106, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 #container #fashion .fashion-item {
   float: left;
   width: 25%;
@@ -116,7 +122,7 @@ body {
   position: relative;
   display: block;
 }
-/* line 113, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 #container #fashion .fashion-item .fashion-inner {
   height: 100%;
   width: 100%;
@@ -127,12 +133,12 @@ body {
   padding: 0;
   transition: opacity .3s;
 }
-/* line 124, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one,
 #container #fashion .fashion-item .inner-three {
   background: #4A7FE8;
 }
-/* line 128, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one p,
 #container #fashion .fashion-item .inner-three p {
   color: #fff;
@@ -141,78 +147,116 @@ body {
   line-height: 200px;
   font-family: "BenchNine";
 }
-/* line 136, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 #container #fashion .fashion-item .inner-two {
   background: url(http://img0.etsystatic.com/002/0/5898062/il_570xN.356502012_9hg7.jpg);
   background-size: cover;
 }
-/* line 140, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 #container #fashion .fashion-item .inner-four {
   background: url(http://ua-cdn.stylecaster.com/post/2012/07/10/21273-mcqueen-clutch-and-chanel-pearls.jpg);
   background-size: cover;
 }
-/* line 146, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 #container #fashion .fashion-item:hover .fashion-inner {
   opacity: 1;
   transition: opacity .3s;
 }
-/* line 153, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 #container #fashion .fashion-one {
   background: url(http://swaggmags.com/wp-content/uploads/2013/05/0x600.jpg);
   background-size: cover;
 }
-/* line 157, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 #container #fashion .fashion-two {
   background: url(http://www4.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Haute+Couture+h4td6lvcfVel.jpg);
   background-size: cover;
 }
-/* line 161, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 #container #fashion .fashion-three {
   background: url(http://lamodellamafia.com/wp-content/uploads/2013/04/la-modella-mafia-Chanel-Fall-2013-runway-7.jpg);
   background-size: cover;
 }
-/* line 165, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 #container #fashion .fashion-four {
   background: url(http://www3.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Spring+Summer+j2FbQU4J3Tvl.jpg);
   background-size: cover;
 }
+/* line 175, ../sass/style.scss */
+#container #map {
+  max-width: 960px;
+  width: 100%;
+  display: inline-block;
+}
+/* line 180, ../sass/style.scss */
+#container #map #lincolncenter {
+  height: 300px;
+  display: block;
+  border: 5px solid #F5007A;
+}
+/* line 185, ../sass/style.scss */
+#container #map .gm-style-iw * {
+  display: block;
+  width: 100%;
+}
+/* line 189, ../sass/style.scss */
+#container #map .gm-style-iw h4, #container #map .gm-style-iw p {
+  margin: 0;
+  padding: 0;
+}
+/* line 193, ../sass/style.scss */
+#container #map .gm-style-iw a {
+  color: #4272db;
+}
+
+/* line 199, ../sass/style.scss */
+footer {
+  height: 50px;
+  width: 100%;
+}
+/* line 203, ../sass/style.scss */
+footer p {
+  font-family: "Oswald";
+  font-size: 20px;
+  text-align: center;
+}
 
 /* Smaller Screens - 1000 Breakpoint -------> */
 @media screen and (max-width: 1000px) {
-  /* line 175, ../sass/style.scss */
+  /* line 213, ../sass/style.scss */
   #container {
     width: 100%;
   }
 }
 /* Smaller Screens - 980 Breakpoint -------> */
 @media screen and (max-width: 980px) {
-  /* line 184, ../sass/style.scss */
+  /* line 222, ../sass/style.scss */
   #container #main {
     width: 60%;
   }
-  /* line 187, ../sass/style.scss */
+  /* line 225, ../sass/style.scss */
   #container #items {
     width: 40%;
   }
-  /* line 189, ../sass/style.scss */
+  /* line 227, ../sass/style.scss */
   #container #items .item {
     width: 100%;
   }
 }
 /* Smaller Screens - 800 Breakpoint -------> */
 @media screen and (max-width: 800px) {
-  /* line 201, ../sass/style.scss */
+  /* line 239, ../sass/style.scss */
   #container #fashion .fashion-item {
     width: 50%;
   }
 }
 /* Smaller Screens - 650 Breakpoint -------> */
 @media screen and (max-width: 650px) {
-  /* line 213, ../sass/style.scss */
+  /* line 251, ../sass/style.scss */
   #container #main {
     width: 100%;
   }
-  /* line 216, ../sass/style.scss */
+  /* line 254, ../sass/style.scss */
   #container #items {
     width: 100%;
   }
