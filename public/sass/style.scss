@@ -108,30 +108,45 @@ body {
       }
     }
     .four {
+
       .modalDialog {
         position: fixed;
-        overflow: scroll;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: 99999;
         opacity:0;
-        transition-duration: .5s;
-        transition-property: opacity;
+        transition: opacity .3s;
         pointer-events: none;
+        background-color: rgba(0,0,0,.8);
+      }
+      .modal-box {
+        color: #000;
+        width: 300px;
+        top: 100px;
+        font-family: $secondary-font;
+        font-size: 25px;
+        text-align: center;
 
-        .modal-box {
-          color: #000;
-          width: 300px;
-          top: 125px;
-          padding-bottom: 17px;
+        h4 {
+          font-family: $primary-font;
+          color: $pink;
+          margin: 0;
+          font-size: 30px;
+        }
+        p {
+          margin: 10px 0 0 0;
+        }
+        img {
+          width: 50px;
+          height: auto;
         }
       }
       .modalDialog:target {
         opacity: 1;
         pointer-events: auto;
-        transition-duration: .5s;
+        transition: opacity .3s;
       }
       .modalDialog > .modal-box {
         position: relative;
@@ -144,12 +159,31 @@ body {
       }
       .close {
         color: #000;
-        float: none;
-        font-family: 'Playfair Display';
-        font-size: 15px;
+        text-align: center;
+        font-size: 30px;
         opacity: 1;
-        margin-left: 120px;
+        display: block;
+        width: 100%;
         font-weight: normal;
+        text-decoration: none;
+        color: $pink;
+        font-family: $primary-font;
+      }
+      input {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
+        font-family: $secondary-font;
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #000;
+        margin: 10px;
+      }
+      select {
+        font-size: 25px;
+        font-family: $secondary-font;
+        margin-bottom: 15px;
       }
     }
   }
@@ -303,6 +337,18 @@ footer {
     }
     #items {
       width: 100%;
+    }
+  }
+}
+
+/* Smaller Screens - 550 Breakpoint -------> */
+@media screen and (max-width : 550px) {
+
+  #container {
+    #main {
+      h1 {
+        font-size: 25px;
+      }
     }
   }
 }

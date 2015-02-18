@@ -113,34 +113,51 @@ body {
   text-decoration: none;
   color: #000;
 }
-/* line 111, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 #container #items .four .modalDialog {
   position: fixed;
-  overflow: scroll;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 99999;
   opacity: 0;
-  transition-duration: .5s;
-  transition-property: opacity;
+  transition: opacity .3s;
   pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 /* line 124, ../sass/style.scss */
-#container #items .four .modalDialog .modal-box {
+#container #items .four .modal-box {
   color: #000;
   width: 300px;
-  top: 125px;
-  padding-bottom: 17px;
+  top: 100px;
+  font-family: "BenchNine";
+  font-size: 25px;
+  text-align: center;
 }
-/* line 131, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
+#container #items .four .modal-box h4 {
+  font-family: "Oswald";
+  color: #F5007A;
+  margin: 0;
+  font-size: 30px;
+}
+/* line 138, ../sass/style.scss */
+#container #items .four .modal-box p {
+  margin: 10px 0 0 0;
+}
+/* line 141, ../sass/style.scss */
+#container #items .four .modal-box img {
+  width: 50px;
+  height: auto;
+}
+/* line 146, ../sass/style.scss */
 #container #items .four .modalDialog:target {
   opacity: 1;
   pointer-events: auto;
-  transition-duration: .5s;
+  transition: opacity .3s;
 }
-/* line 136, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 #container #items .four .modalDialog > .modal-box {
   position: relative;
   color: #000;
@@ -150,23 +167,44 @@ body {
   border: 3px solid #000;
   background: #FFF;
 }
-/* line 145, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 #container #items .four .close {
   color: #000;
-  float: none;
-  font-family: 'Playfair Display';
-  font-size: 15px;
+  text-align: center;
+  font-size: 30px;
   opacity: 1;
-  margin-left: 120px;
+  display: block;
+  width: 100%;
   font-weight: normal;
+  text-decoration: none;
+  color: #F5007A;
+  font-family: "Oswald";
 }
-/* line 156, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
+#container #items .four input {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 25px;
+  font-family: "BenchNine";
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #000;
+  margin: 10px;
+}
+/* line 183, ../sass/style.scss */
+#container #items .four select {
+  font-size: 25px;
+  font-family: "BenchNine";
+  margin-bottom: 15px;
+}
+/* line 190, ../sass/style.scss */
 #container #fashion {
   display: block;
   width: 100%;
   height: 300px;
 }
-/* line 161, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 #container #fashion .fashion-item {
   float: left;
   width: 25%;
@@ -174,7 +212,7 @@ body {
   position: relative;
   display: block;
 }
-/* line 168, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 #container #fashion .fashion-item .fashion-inner {
   height: 100%;
   width: 100%;
@@ -185,12 +223,12 @@ body {
   padding: 0;
   transition: opacity .3s;
 }
-/* line 179, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one,
 #container #fashion .fashion-item .inner-three {
   background: #4A7FE8;
 }
-/* line 183, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one p,
 #container #fashion .fashion-item .inner-three p {
   color: #fff;
@@ -199,74 +237,74 @@ body {
   line-height: 200px;
   font-family: "BenchNine";
 }
-/* line 191, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 #container #fashion .fashion-item .inner-two {
   background: url(http://img0.etsystatic.com/002/0/5898062/il_570xN.356502012_9hg7.jpg);
   background-size: cover;
 }
-/* line 195, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 #container #fashion .fashion-item .inner-four {
   background: url(http://ua-cdn.stylecaster.com/post/2012/07/10/21273-mcqueen-clutch-and-chanel-pearls.jpg);
   background-size: cover;
 }
-/* line 201, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 #container #fashion .fashion-item:hover .fashion-inner {
   opacity: 1;
   transition: opacity .3s;
 }
-/* line 208, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 #container #fashion .fashion-one {
   background: url(http://swaggmags.com/wp-content/uploads/2013/05/0x600.jpg);
   background-size: cover;
 }
-/* line 212, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 #container #fashion .fashion-two {
   background: url(http://www4.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Haute+Couture+h4td6lvcfVel.jpg);
   background-size: cover;
 }
-/* line 216, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 #container #fashion .fashion-three {
   background: url(http://lamodellamafia.com/wp-content/uploads/2013/04/la-modella-mafia-Chanel-Fall-2013-runway-7.jpg);
   background-size: cover;
 }
-/* line 220, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 #container #fashion .fashion-four {
   background: url(http://www3.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Spring+Summer+j2FbQU4J3Tvl.jpg);
   background-size: cover;
 }
-/* line 225, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 #container #map {
   max-width: 960px;
   width: 100%;
   display: inline-block;
 }
-/* line 230, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 #container #map #lincolncenter {
   height: 300px;
   display: block;
   border: 5px solid #F5007A;
 }
-/* line 235, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 #container #map .gm-style-iw * {
   display: block;
   width: 100%;
 }
-/* line 239, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 #container #map .gm-style-iw h4, #container #map .gm-style-iw p {
   margin: 0;
   padding: 0;
 }
-/* line 243, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 #container #map .gm-style-iw a {
   color: #4272db;
 }
 
-/* line 249, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 footer {
   height: 50px;
   width: 100%;
 }
-/* line 253, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 footer p {
   font-family: "Oswald";
   font-size: 20px;
@@ -275,41 +313,48 @@ footer p {
 
 /* Smaller Screens - 1000 Breakpoint -------> */
 @media screen and (max-width: 1000px) {
-  /* line 263, ../sass/style.scss */
+  /* line 297, ../sass/style.scss */
   #container {
     width: 100%;
   }
 }
 /* Smaller Screens - 980 Breakpoint -------> */
 @media screen and (max-width: 980px) {
-  /* line 272, ../sass/style.scss */
+  /* line 306, ../sass/style.scss */
   #container #main {
     width: 60%;
   }
-  /* line 275, ../sass/style.scss */
+  /* line 309, ../sass/style.scss */
   #container #items {
     width: 40%;
   }
-  /* line 277, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   #container #items .item {
     width: 100%;
   }
 }
 /* Smaller Screens - 800 Breakpoint -------> */
 @media screen and (max-width: 800px) {
-  /* line 289, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
   #container #fashion .fashion-item {
     width: 50%;
   }
 }
 /* Smaller Screens - 650 Breakpoint -------> */
 @media screen and (max-width: 650px) {
-  /* line 301, ../sass/style.scss */
+  /* line 335, ../sass/style.scss */
   #container #main {
     width: 100%;
   }
-  /* line 304, ../sass/style.scss */
+  /* line 338, ../sass/style.scss */
   #container #items {
     width: 100%;
+  }
+}
+/* Smaller Screens - 550 Breakpoint -------> */
+@media screen and (max-width: 550px) {
+  /* line 349, ../sass/style.scss */
+  #container #main h1 {
+    font-size: 25px;
   }
 }
