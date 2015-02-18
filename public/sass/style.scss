@@ -1,3 +1,7 @@
+$green: #59D600;
+$pink: #F5007A;
+$primary-font: 'Codystar';
+
 body {
   
 }
@@ -17,16 +21,31 @@ body {
     .preloader-gif {
       position: absolute;
       display: block;
-/*      top: 0;
-      left: 0;*/
       top: 50%;
       left: 50%;
- /*     width: 100%;
-      height: 100%;*/
       width: 150px;
       height: 50px;
       margin: -25px 0 0 -75px;
-      background: url('/images/preloader.gif') no-repeat;   
+      background: url('/images/preloader.gif') no-repeat;
+    } 
+
+    .preloader-header {
+      position: absolute;
+      display: block;
+      top: 55%; 
+      left: 50%;
+      width: 300px;
+      margin-left: -150px;
+
+      h1 {
+        font-family: $primary-font;
+        font-size: 25px;
+        color: $pink;
+        text-align: center;
+      }
     }
   }
 }
+
+
+

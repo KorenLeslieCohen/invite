@@ -1,8 +1,8 @@
-/* line 5, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 #container {
   max-width: 960px;
 }
-/* line 8, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 #container .preloader {
   position: fixed;
   top: 0;
@@ -12,18 +12,30 @@
   background: #000;
   z-index: 99999;
 }
-/* line 17, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 #container .preloader .preloader-gif {
   position: absolute;
   display: block;
-  /*      top: 0;
-        left: 0;*/
   top: 50%;
   left: 50%;
-  /*     width: 100%;
-       height: 100%;*/
   width: 150px;
   height: 50px;
   margin: -25px 0 0 -75px;
   background: url("/images/preloader.gif") no-repeat;
+}
+/* line 32, ../sass/style.scss */
+#container .preloader .preloader-header {
+  position: absolute;
+  display: block;
+  top: 55%;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+}
+/* line 40, ../sass/style.scss */
+#container .preloader .preloader-header h1 {
+  font-family: "Codystar";
+  font-size: 25px;
+  color: #F5007A;
+  text-align: center;
 }
