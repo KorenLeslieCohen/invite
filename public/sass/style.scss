@@ -7,7 +7,7 @@ $secondary-font: 'BenchNine';
 body {
   margin: 0;
   padding: 10px 10px 0 10px;
-  background: url(http://www.rabne.tk/wp-content/uploads/2015/01/Grey-background-for-site11.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/grey.jpg);
   background-size: cover;
 }
 
@@ -38,7 +38,7 @@ body {
     } 
   }
   header {
-    background: url(http://i306.photobucket.com/albums/nn270/crystalarlene/chanel.png) no-repeat;
+    background: url(https://s3.amazonaws.com/splashklc/chanel-logo.png) no-repeat;
     width: 250px;
     height: 170px;
     margin-left: auto;
@@ -48,7 +48,7 @@ body {
   #header-photo {
     max-width: 960px;
     height: 400px;
-    background: url(http://chanel-news.chanel.com/dam/chanelnews/en/2014/07/coco-coach-logo/chanel-fall-winter-campaign-2014-15-04.jpg/_jcr_content/renditions/cq5dam.gallery-full.jpg.Rendition/chanel-fall-winter-campaign-2014-15-04.jpg);
+    background: url(https://s3.amazonaws.com/splashklc/chanel-header.jpg);
     background-size: cover;
     border: 5px solid $pink;
     margin-top: 15px;
@@ -116,10 +116,10 @@ body {
         bottom: 0;
         left: 0;
         z-index: 99999;
-        opacity:0;
-        transition: opacity .3s;
+        opacity: 0;
         pointer-events: none;
         background-color: rgba(0,0,0,.8);
+        transition: opacity .3s;
       }
       .modal-box {
         color: #000;
@@ -164,7 +164,6 @@ body {
         opacity: 1;
         display: block;
         width: 100%;
-        font-weight: normal;
         text-decoration: none;
         color: $blue;
         font-family: $primary-font;
@@ -173,12 +172,12 @@ body {
         width: 90%;
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 5px;
         font-size: 25px;
         font-family: $secondary-font;
         border-radius: 5px;
         padding: 5px;
         border: 1px solid #000;
-        margin-bottom: 5px;
       }
       select {
         font-size: 25px;
@@ -209,7 +208,6 @@ body {
         padding: 0;
         transition: opacity .3s;
       }
-
       .inner-one,
       .inner-three {
         background: $blue;
@@ -223,11 +221,11 @@ body {
         }
       }
       .inner-two {
-        background: url(http://img0.etsystatic.com/002/0/5898062/il_570xN.356502012_9hg7.jpg);
+        background: url(https://s3.amazonaws.com/splashklc/necklace.jpg);
         background-size: cover;
       }
       .inner-four {
-        background: url(http://ua-cdn.stylecaster.com/post/2012/07/10/21273-mcqueen-clutch-and-chanel-pearls.jpg);
+        background: url(https://s3.amazonaws.com/splashklc/clutch.jpg);
         background-size: cover;
       }
 
@@ -238,21 +236,20 @@ body {
         }
       }
     }
-
     .fashion-one {
-      background: url(http://swaggmags.com/wp-content/uploads/2013/05/0x600.jpg);
+      background: url(https://s3.amazonaws.com/splashklc/one.jpg);
       background-size: cover;
     }
     .fashion-two {
-      background: url(http://www4.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Haute+Couture+h4td6lvcfVel.jpg);
+      background: url(https://s3.amazonaws.com/splashklc/two.jpg);
       background-size: cover;
     }
     .fashion-three {
-      background: url(http://lamodellamafia.com/wp-content/uploads/2013/04/la-modella-mafia-Chanel-Fall-2013-runway-7.jpg);
+      background: url(https://s3.amazonaws.com/splashklc/three.jpg);
       background-size: cover;
     }
     .fashion-four {
-      background: url(http://www3.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Spring+Summer+j2FbQU4J3Tvl.jpg);
+      background: url(https://s3.amazonaws.com/splashklc/four.jpg);
       background-size: cover;
     }
   }

@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 10px 10px 0 10px;
-  background: url(http://www.rabne.tk/wp-content/uploads/2015/01/Grey-background-for-site11.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/grey.jpg);
   background-size: cover;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 /* line 40, ../sass/style.scss */
 #container header {
-  background: url(http://i306.photobucket.com/albums/nn270/crystalarlene/chanel.png) no-repeat;
+  background: url(https://s3.amazonaws.com/splashklc/chanel-logo.png) no-repeat;
   width: 250px;
   height: 170px;
   margin-left: auto;
@@ -47,7 +47,7 @@ body {
 #container #header-photo {
   max-width: 960px;
   height: 400px;
-  background: url(http://chanel-news.chanel.com/dam/chanelnews/en/2014/07/coco-coach-logo/chanel-fall-winter-campaign-2014-15-04.jpg/_jcr_content/renditions/cq5dam.gallery-full.jpg.Rendition/chanel-fall-winter-campaign-2014-15-04.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/chanel-header.jpg);
   background-size: cover;
   border: 5px solid #F5007A;
   margin-top: 15px;
@@ -122,9 +122,9 @@ body {
   left: 0;
   z-index: 99999;
   opacity: 0;
-  transition: opacity .3s;
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.8);
+  transition: opacity .3s;
 }
 /* line 124, ../sass/style.scss */
 #container #items .four .modal-box {
@@ -175,36 +175,35 @@ body {
   opacity: 1;
   display: block;
   width: 100%;
-  font-weight: normal;
   text-decoration: none;
   color: #4A7FE8;
   font-family: "Oswald";
 }
-/* line 172, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 #container #items .four input {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 5px;
   font-size: 25px;
   font-family: "BenchNine";
   border-radius: 5px;
   padding: 5px;
   border: 1px solid #000;
-  margin-bottom: 5px;
 }
-/* line 183, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 #container #items .four select {
   font-size: 25px;
   font-family: "BenchNine";
   margin-bottom: 5px;
 }
-/* line 190, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 #container #fashion {
   display: block;
   width: 100%;
   height: 300px;
 }
-/* line 195, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 #container #fashion .fashion-item {
   float: left;
   width: 25%;
@@ -212,7 +211,7 @@ body {
   position: relative;
   display: block;
 }
-/* line 202, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 #container #fashion .fashion-item .fashion-inner {
   height: 100%;
   width: 100%;
@@ -223,12 +222,12 @@ body {
   padding: 0;
   transition: opacity .3s;
 }
-/* line 213, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one,
 #container #fashion .fashion-item .inner-three {
   background: #4A7FE8;
 }
-/* line 217, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 #container #fashion .fashion-item .inner-one p,
 #container #fashion .fashion-item .inner-three p {
   color: #fff;
@@ -237,74 +236,74 @@ body {
   line-height: 200px;
   font-family: "BenchNine";
 }
-/* line 225, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 #container #fashion .fashion-item .inner-two {
-  background: url(http://img0.etsystatic.com/002/0/5898062/il_570xN.356502012_9hg7.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/necklace.jpg);
   background-size: cover;
 }
-/* line 229, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 #container #fashion .fashion-item .inner-four {
-  background: url(http://ua-cdn.stylecaster.com/post/2012/07/10/21273-mcqueen-clutch-and-chanel-pearls.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/clutch.jpg);
   background-size: cover;
 }
-/* line 235, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 #container #fashion .fashion-item:hover .fashion-inner {
   opacity: 1;
   transition: opacity .3s;
 }
-/* line 242, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 #container #fashion .fashion-one {
-  background: url(http://swaggmags.com/wp-content/uploads/2013/05/0x600.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/one.jpg);
   background-size: cover;
 }
-/* line 246, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #container #fashion .fashion-two {
-  background: url(http://www4.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Haute+Couture+h4td6lvcfVel.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/two.jpg);
   background-size: cover;
 }
-/* line 250, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 #container #fashion .fashion-three {
-  background: url(http://lamodellamafia.com/wp-content/uploads/2013/04/la-modella-mafia-Chanel-Fall-2013-runway-7.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/three.jpg);
   background-size: cover;
 }
-/* line 254, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 #container #fashion .fashion-four {
-  background: url(http://www3.pictures.zimbio.com/gi/Chanel+Runway+Paris+Fashion+Week+Spring+Summer+j2FbQU4J3Tvl.jpg);
+  background: url(https://s3.amazonaws.com/splashklc/four.jpg);
   background-size: cover;
 }
-/* line 259, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 #container #map {
   max-width: 960px;
   width: 100%;
   display: inline-block;
 }
-/* line 264, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 #container #map #lincolncenter {
   height: 300px;
   display: block;
   border: 5px solid #4A7FE8;
 }
-/* line 269, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 #container #map .gm-style-iw * {
   display: block;
   width: 100%;
 }
-/* line 273, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 #container #map .gm-style-iw h4, #container #map .gm-style-iw p {
   margin: 0;
   padding: 0;
 }
-/* line 277, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #container #map .gm-style-iw a {
   color: #4272db;
 }
 
-/* line 283, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 footer {
   height: 50px;
   width: 100%;
 }
-/* line 287, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 footer p {
   font-family: "Oswald";
   font-size: 20px;
@@ -313,55 +312,55 @@ footer p {
 
 /* Smaller Screens - 1000 Breakpoint -------> */
 @media screen and (max-width: 1000px) {
-  /* line 297, ../sass/style.scss */
+  /* line 294, ../sass/style.scss */
   #container {
     width: 100%;
   }
 }
 /* Smaller Screens - 980 Breakpoint -------> */
 @media screen and (max-width: 980px) {
-  /* line 306, ../sass/style.scss */
+  /* line 303, ../sass/style.scss */
   #container #main {
     width: 60%;
   }
-  /* line 309, ../sass/style.scss */
+  /* line 306, ../sass/style.scss */
   #container #items {
     width: 40%;
   }
-  /* line 311, ../sass/style.scss */
+  /* line 308, ../sass/style.scss */
   #container #items .item {
     width: 100%;
   }
 }
 /* Smaller Screens - 800 Breakpoint -------> */
 @media screen and (max-width: 800px) {
-  /* line 323, ../sass/style.scss */
+  /* line 320, ../sass/style.scss */
   #container #fashion .fashion-item {
     width: 50%;
   }
 }
 /* Smaller Screens - 650 Breakpoint -------> */
 @media screen and (max-width: 650px) {
-  /* line 335, ../sass/style.scss */
+  /* line 332, ../sass/style.scss */
   #container #main {
     width: 100%;
   }
-  /* line 338, ../sass/style.scss */
+  /* line 335, ../sass/style.scss */
   #container #items {
     width: 100%;
   }
 }
 /* Smaller Screens - 550 Breakpoint -------> */
 @media screen and (max-width: 550px) {
-  /* line 349, ../sass/style.scss */
+  /* line 346, ../sass/style.scss */
   #container #main h1 {
     font-size: 25px;
   }
-  /* line 352, ../sass/style.scss */
+  /* line 349, ../sass/style.scss */
   #container #main p {
     font-size: 15px;
   }
-  /* line 358, ../sass/style.scss */
+  /* line 355, ../sass/style.scss */
   #container #items .four .modal-box {
     top: 0;
   }
