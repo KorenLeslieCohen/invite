@@ -237,73 +237,78 @@ body {
   font-family: "BenchNine";
 }
 /* line 223, ../sass/style.scss */
+#container #fashion .fashion-item .inner-one a,
+#container #fashion .fashion-item .inner-three a {
+  text-decoration: none;
+}
+/* line 227, ../sass/style.scss */
 #container #fashion .fashion-item .inner-two {
   background: url(https://s3.amazonaws.com/splashklc/necklace.jpg);
   background-size: cover;
 }
-/* line 227, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #container #fashion .fashion-item .inner-four {
   background: url(https://s3.amazonaws.com/splashklc/clutch.jpg);
   background-size: cover;
 }
-/* line 233, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 #container #fashion .fashion-item:hover .fashion-inner {
   opacity: 1;
   transition: opacity .3s;
 }
-/* line 239, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #container #fashion .fashion-one {
   background: url(https://s3.amazonaws.com/splashklc/one.jpg);
   background-size: cover;
 }
-/* line 243, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 #container #fashion .fashion-two {
   background: url(https://s3.amazonaws.com/splashklc/two.jpg);
   background-size: cover;
 }
-/* line 247, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 #container #fashion .fashion-three {
   background: url(https://s3.amazonaws.com/splashklc/three.jpg);
   background-size: cover;
 }
-/* line 251, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 #container #fashion .fashion-four {
   background: url(https://s3.amazonaws.com/splashklc/four.jpg);
   background-size: cover;
 }
-/* line 256, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 #container #map {
   max-width: 960px;
   width: 100%;
   display: inline-block;
 }
-/* line 261, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 #container #map #lincolncenter {
   height: 300px;
   display: block;
   border: 5px solid #4A7FE8;
 }
-/* line 266, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 #container #map .gm-style-iw * {
   display: block;
   width: 100%;
 }
-/* line 270, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #container #map .gm-style-iw h4, #container #map .gm-style-iw p {
   margin: 0;
   padding: 0;
 }
-/* line 274, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 #container #map .gm-style-iw a {
   color: #4272db;
 }
 
-/* line 280, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 footer {
   height: 50px;
   width: 100%;
 }
-/* line 284, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 footer p {
   font-family: "Oswald";
   font-size: 20px;
@@ -312,55 +317,55 @@ footer p {
 
 /* Smaller Screens - 1000 Breakpoint -------> */
 @media screen and (max-width: 1000px) {
-  /* line 294, ../sass/style.scss */
+  /* line 298, ../sass/style.scss */
   #container {
     width: 100%;
   }
 }
 /* Smaller Screens - 980 Breakpoint -------> */
 @media screen and (max-width: 980px) {
-  /* line 303, ../sass/style.scss */
+  /* line 307, ../sass/style.scss */
   #container #main {
     width: 60%;
   }
-  /* line 306, ../sass/style.scss */
+  /* line 310, ../sass/style.scss */
   #container #items {
     width: 40%;
   }
-  /* line 308, ../sass/style.scss */
+  /* line 312, ../sass/style.scss */
   #container #items .item {
     width: 100%;
   }
 }
 /* Smaller Screens - 800 Breakpoint -------> */
 @media screen and (max-width: 800px) {
-  /* line 320, ../sass/style.scss */
+  /* line 324, ../sass/style.scss */
   #container #fashion .fashion-item {
     width: 50%;
   }
 }
 /* Smaller Screens - 650 Breakpoint -------> */
 @media screen and (max-width: 650px) {
-  /* line 332, ../sass/style.scss */
+  /* line 336, ../sass/style.scss */
   #container #main {
     width: 100%;
   }
-  /* line 335, ../sass/style.scss */
+  /* line 339, ../sass/style.scss */
   #container #items {
     width: 100%;
   }
 }
 /* Smaller Screens - 550 Breakpoint -------> */
 @media screen and (max-width: 550px) {
-  /* line 346, ../sass/style.scss */
+  /* line 350, ../sass/style.scss */
   #container #main h1 {
     font-size: 25px;
   }
-  /* line 349, ../sass/style.scss */
+  /* line 353, ../sass/style.scss */
   #container #main p {
     font-size: 15px;
   }
-  /* line 355, ../sass/style.scss */
+  /* line 359, ../sass/style.scss */
   #container #items .four .modal-box {
     top: 0;
   }

@@ -219,6 +219,10 @@ body {
           line-height: 200px;
           font-family: $secondary-font;
         }
+
+        a {
+          text-decoration: none;
+        }
       }
       .inner-two {
         background: url(https://s3.amazonaws.com/splashklc/necklace.jpg);
