@@ -6,6 +6,6 @@ $(document).ready(function () {
   })
 
   // delay modal display
-  $('.modalDialog').delay().css("display", "block");
+  $('.modalDialog').delay(100).css("display", "block");
 
 })
