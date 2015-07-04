@@ -14,6 +14,11 @@ Built with Node.js, Express.js & SASS. Fully responsive.
 
 ## Author
 
-Created by Koren Leslie Cohen - <a href="http://linkedin.com/in/korenlesliecohen/" target="_blank">LinkedIn</a>, <a href="http://twitter.com/korenlc" target="_blank">Twitter</a>, <a href="http://korenlc.com" target="_blank">Blog</a>.
+Created by Koren Leslie Cohen.
+
+<a href="http://linkedin.com/in/korenlesliecohen/" target="_blank">LinkedIn</a><br>
+<a href="http://twitter.com/korenlc" target="_blank">Twitter</a><br>
+<a href="http://korenlc.com" target="_blank">Blog</a><br>
+<a href="http://klcohen.com" target="_blank">Portfolio</a>
 
 
