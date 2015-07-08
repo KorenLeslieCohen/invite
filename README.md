@@ -1,4 +1,4 @@
-# NYFW Invite
+# NYFW Invite 
 
 Built with Node.js, Express.js & SASS. Fully responsive. 
 
